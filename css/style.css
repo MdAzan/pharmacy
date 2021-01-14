@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+
+  #firstSection{
+    background-color: rgba(191, 207, 219, 0.199);
+  }
+
+  .nav-link{
+    color: black;
+    font-weight: 400;
+  }
+  
+  .myIcon{
+    width: 60px;
+  }
+
+  .myIcon + span {
+    font-size: 25px;
+    font-weight: 700;
+    color: green;
+  }
+
+  .myIcon + span:hover{
+    color: red;
+  }
+
+  /* second part of #firstSection */
+  .title{
+    font-size: 50px;
+  }
+
+  .title + p{
+    font-weight: 400;
+  }
+
+  .buy-now{
+    text-decoration: none !important;
+    background: rgb(150, 180, 39);
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 10px;
+  }
+
+  .buy-now img{
+    width: 30px;
+  }
+  .buy-now li{
+    color: #fff;
+  }
+
+
+  /* secondSection */
+  #secondSection{
+    padding: 70px 0;
+    background: #f0f0f0;
+  }
+
+  .title2{
+    padding: 0 0 20px 60px;
+  }
+
+  .vitamins{
+    justify-content: space-evenly;
+  }
+
+  .vitamins .child{
+    width: 370px;
+    min-height: 500px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  .vitamins .child .img-box{
+    width: 300px;
+    height: 300px;
+    background: rgba(128, 128, 128, 0.055);
+    margin: 20px auto;
+    border-radius: 15px;
+    padding-top: 40px;
+    margin-top: 30px;
+  }
+
+  
+  .vitamins .child h4,
+  .vitamins .child p{
+    padding: 0 30px;
+  }
+
+  .vitamins .child h4{
+    padding-top: 20px;
+  }
+
+
+
+
+  .vitamins .child div i{
+    color: #d87d16;
+    font-size: 40px;
+  }
+
+  .vitamins .child div span{
+    color: rgb(247, 111, 0);
+    font-size: 35px;
+  }
+
+
+
+
+   /* thirdSection */
+  #thirdSection{
+      padding: 70px 0;
+      background: #f0f0f0;
+  }
+
+
+ /* lastSection */
+
+  #lastSection{
+    padding: 100px 0;
+    background: #f0f0f0;
+  }
+  .service .child{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+ 
+  .service .one{
+    width: 70px;
+    overflow: hidden;
+  }
+
+  .service .one img{
+    width: 100%;
+  }
+
+  .shop{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/shop.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  @media screen and (max-width: 767px){
+    .shop{
+      width: 100%;
+      height: 200px;
+      background-image: url('../images/shop.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  
+  }
+
+
+#mySection{
+  width: 100%;
+  overflow: hidden;
+  min-height: 600px;
+  background: #fff;
+}
+
+.hom-d{
+  width: 100%;
+  min-height: 600px;
+  background-image: url('../images/home-d.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.social h4{
+  font-weight: 400;
+  color: green;
+}
+
+.social i{
+  font-size: 30px;
+  margin: 0 10px;
+  color: green;
+}
+
+
+.social li:nth-child(1) i{
+  color: rgb(30, 92, 143);
+}
+ 
+.social li:nth-child(2) i{
+  color: rgb(29, 141, 48);
+}
+ 
+.social li:nth-child(3) i{
+  color: rgb(255, 7, 7);
+}
+ 
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+ .azan-owner{
+   width: 700% !important;
+   height: auto;
+ }
+}
+ 
+
+.mph{
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/owner.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
